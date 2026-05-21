@@ -106,8 +106,8 @@
     </head>
     <body>
         <div class="container">
-            <h1>🚀 Laravel 12 + Logto SSO</h1>
-            <p class="subtitle">Secure authentication powered by Logto</p>
+            <h1>🚀 SIREKAP SSO</h1>
+            <p class="subtitle">Secure authentication powered by Klikin SSO</p>
 
             @if(session('success'))
                 <div class="alert alert-success">
@@ -136,15 +136,15 @@
                 <a href="{{ route('auth.sign-out') }}" class="btn btn-primary">Sign Out</a>
             @else
                 <p style="color: #666; margin-bottom: 20px;">
-                    You are not authenticated. Sign in with Logto to access the application.
+                    You are not authenticated. Sign in with Klikin SSO to access the application.
                 </p>
-                <a href="{{ route('auth.sign-in') }}" class="btn btn-primary">Sign In with Logto</a>
+                <a href="{{ route('auth.sign-in') }}" class="btn btn-primary">Sign In with Klikin SSO</a>
             @endif
 
             <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
                 <p style="color: #999; font-size: 12px;">
-                    Powered by <a href="https://logto.io" target="_blank" style="color: #667eea;">Logto</a> •
-                    <a href="https://laravel.com" target="_blank" style="color: #667eea;">Laravel 12</a>
+                    Powered by <a href="https://Klikinsso.com" target="_blank" style="color: #667eea;">Klikin SSO</a> •
+                    <a href="https://sirekap.id" target="_blank" style="color: #667eea;">SIREKAP</a>
                 </p>
             </div>
         </div>

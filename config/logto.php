@@ -25,9 +25,9 @@ return [
     'scopes' => [
         'openid',
         'profile',
-        'offline_access',
         'email',
         'custom_data',
+        'urn:logto:scope:organization_roles',
     ],
 
     /*
