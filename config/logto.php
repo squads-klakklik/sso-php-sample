@@ -10,9 +10,9 @@ return [
     |
     */
 
-    'endpoint' => env('LOGTO_ENDPOINT', 'https://your-logto-endpoint.app'),
-    'app_id' => env('LOGTO_APP_ID'),
-    'app_secret' => env('LOGTO_APP_SECRET'),
+    'endpoint' => env('SSO_ENDPOINT', 'https://your-logto-endpoint.app'),
+    'app_id' => env('SSO_APP_ID'),
+    'app_secret' => env('SSO_APP_SECRET'),
 
     /*
     |--------------------------------------------------------------------------
